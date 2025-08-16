@@ -9,8 +9,8 @@ import requests
 from bs4 import BeautifulSoup
 
 # ---------- 配置 ----------
-LOGIN_URL   = "http://www.51ns.cn/index.php?s=/Home/Public/login.html"
-COUPON_URL  = "http://www.51ns.cn/index.php?s=/Home/Coupon/index.html"
+LOGIN_URL   = "http://www.51ns.cn/nlogin"
+COUPON_URL  = "http://www.51ns.cn/nlogin"
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
       "AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/124.0 Safari/537.36")
